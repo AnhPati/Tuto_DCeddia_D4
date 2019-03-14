@@ -1,0 +1,35 @@
+html,
+body,
+#root,
+.mainContainer {
+  margin: 0;
+  height: auto;
+  width: 100%;
+}
+
+.mainContainer {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: #dae0e6;
+}
+
+.postContainer {
+  list-style-type: none;
+  padding-inline-start: 0;
+  margin: 1rem 2rem 1rem 2rem;
+}
+
+.postItem {
+  max-width: 100%;
+  background-color: #ffffff;
+  border: 1px solid #ccc8c8;
+  padding: 1rem 2rem 1rem 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+
+.postText {
+  width: 100%;
+  word-wrap: break-word;
+}
